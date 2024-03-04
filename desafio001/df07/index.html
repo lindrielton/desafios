@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shotecut icon" href="favicon.ico.jpg" type=imagens/xicon>
+    <title>imagens que se adapitao a tela</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <p>aqui esta um exemplo de imagens que se adpitam!</p>
+    <br>
+    <picture>
+        <source media="(max-width: 500px )" srcset="imagens/cavalopequeno.png" type="image/png">
+        <source media="(max-width: 900px )" srcset="imagens/cavalomedio.png" type="image/png">
+        <img src="imagens/cavalomaior.png" alt="cavalo tamanho horiginal">
+        
+    </picture>
+</body>
+</html>

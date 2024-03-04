@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+@font-face {
+    font-family: 'anja';
+    src: url("./fontes/Anja\ Eliane.ttf") format('opentype');
+    font-weight: normal;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+:root{
+    --cor1:#29F9C6;
+    --cor2:#5A6175;
+    --cor3:#262976;
+    
+    --font-base:'kode Mono';
+    --font-legal:'anja';
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    font-family: var(--font-legal);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);    
+}
+main{
+    background-color: var(--cor3);
+    max-width: 500px;
+    min-width: 300px;   
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.278);    
+}
+*{
+    margin:auto;
+    max-width: 500px;
+    min-width: 300px;
+}
+div p{
+    
+    text-align: center;
+    padding: 10%;
+}
+p strong{
+    text-decoration: underline;
+}
+
+div{
+    margin: 0px;
+}
+div p abbr{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+aside p{
+    color:white ;
+    font-size: bold;
+    text-indent: 2px;    
+}
+.sinal::after{
+    content:"\1F6A5";
+    margin-left: 2px;
+}
+img{
+    content:("\1F526");
+}
+.botao{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: right;
+    margin: 15px 15px 15px  360px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline;
+}
+a:hover{
+    background-color:var(--cor1) ;
+}
+.legasy::after{
+    content: "\1F9EA";
+    margin-top: 0px;
+}

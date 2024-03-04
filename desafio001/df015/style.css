@@ -1,0 +1,49 @@
+@charset "utf-8";
+h1{
+    height: 169px;
+    width: 200px;
+    border: 10px solid lightblue;
+    border-radius: 5px;
+    background-color: cyan;
+    box-shadow: 2px 2px 2px rgb(54, 70, 85);
+
+     
+    margin: 20px auto 30px auto;
+
+    padding: 15px  ;
+    
+}
+h1:hover{
+    color: darkmagenta;
+    background-color: black;
+}
+
+p{
+    height: 80px;
+    width: 400px;
+    background-color: rgb(134, 62, 62);
+    border: 5px solid rgb(21, 11, 11);
+
+    margin: 10px auto 10px auto;
+
+    padding: 10px 15px 10px 15px;
+
+    outline: 5px solid limegreen;
+}
+
+p >  a {
+    display:none;
+}
+
+p:hover >a {
+    display:block;
+    color: chocolate;
+    
+}
+
+body{
+    background-color:lightyellow;
+}
+h2{
+    
+}

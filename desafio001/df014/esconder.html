@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            background-color: black;
+            color: white;
+            width: 200px;
+            border-radius: 4px;
+        }
+        div > p{
+            display: none;
+        }
+        div{
+            color: aqua;
+            width: 300px;
+            border-radius: 4px;
+        }
+        div:hover >p{
+            display: block;
+            text-decoration: none;
+            color: rgb(8, 35, 24);
+            background-color: rgb(110, 33, 110);
+        }
+    </style>
+</head>
+<body>
+    <h2>testo escondido</h2>
+    <div>
+        passe o mause aqui para o texto ser mostrado
+        <p>aqui esta seu texto...</p>
+    </div>
+</body>
+</html>

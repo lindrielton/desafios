@@ -1,0 +1,12 @@
+h1{
+    background-color: darkgray;color: blue;
+}
+h2{
+    background-color: rgb(73, 88, 133);color: rgb(50, 10, 20);
+}
+h3{
+    background-color: hsl(10, 20%, 80%);color: hsl(100, 30%, 200%);
+}
+p{
+    background-color: #00f;
+}
